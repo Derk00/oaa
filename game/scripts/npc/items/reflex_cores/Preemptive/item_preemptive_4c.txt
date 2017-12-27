@@ -1,9 +1,9 @@
 "DOTAItems"
 {
   //=================================================================================================================
-  // Recipe: preemptive_3c
+  // Recipe: preemptive_4c
   //=================================================================================================================
-  "item_recipe_preemptive_3c"
+  "item_recipe_preemptive_4c"
   {
     "ID"                                                  "8440"   // unique ID
     "BaseClass"                                           "item_datadriven"
@@ -11,7 +11,7 @@
     "ItemCost"                                            "20000"
     "ItemShopTags"                                        ""
     "ItemRecipe"                                          "1"
-    "ItemResult"                                          "item_preemptive_3c"
+    "ItemResult"                                          "item_preemptive_4c"
     "AbilityTextureName"                                  "item_recipe"
     "ItemRequirements"
     {
@@ -20,9 +20,9 @@
   }
 
   //=================================================================================================================
-  // preemptive_3c
+  // preemptive_4c
   //=================================================================================================================
-  "item_preemptive_3c"
+  "item_preemptive_4c"
   {
     // General
     //-------------------------------------------------------------------------------------------------------------
@@ -33,8 +33,8 @@
     "ScriptFile"                                          "items/reflex/preemptive_bubble.lua"
     "FightRecapLevel"                                     "1"
 
-    "MaxUpgradeLevel"                                     "3"
-    "ItemBaseLevel"                                       "3"
+    "MaxUpgradeLevel"                                     "2"
+    "ItemBaseLevel"                                       "2"
 
     // Stats
     //-------------------------------------------------------------------------------------------------------------
@@ -60,22 +60,22 @@
       "01"
       {
         "var_type"                                        "FIELD_INTEGER"
-        "bonus_armor"                                     "40"
+        "bonus_armor"                                     "32 40"
       }
       "02"
       {
         "var_type"                                        "FIELD_FLOAT"
-        "bonus_health_regen"                              "30"
+        "bonus_health_regen"                              "15.0 30.0"
       }
       "03"
       {
         "var_type"                                        "FIELD_FLOAT"
-        "bonus_mana_regen"                                "7.5"
+        "bonus_mana_regen"                                "5.0 7.5"
       }
       "04"
       {
-        "var_type"					  "FIELD_INTEGER"
-	"bonus_mana"					  "1000"
+        "var_type"                                        "FIELD_INTEGER"
+	"bonus_mana"                                      "700 1000"
       }
       "05"
       {

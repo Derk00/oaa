@@ -13,7 +13,7 @@
     "ItemCost"                                            "8000"
     "ItemShopTags"                                        ""
     "ItemRecipe"                                          "1"
-    "ItemResult"                                          "item_postactive_3c"
+    "ItemResult"                                          "item_postactive_4c"
     "ItemRequirements"
     {
       "01"                                                "item_postactive_3c;item_upgrade_core_3"

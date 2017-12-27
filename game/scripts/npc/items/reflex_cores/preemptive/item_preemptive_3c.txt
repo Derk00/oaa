@@ -34,8 +34,8 @@
     "ScriptFile"                                          "items/reflex/preemptive_bubble.lua"
     "FightRecapLevel"                                     "1"
 
-    "MaxUpgradeLevel"                                     "3"
-    "ItemBaseLevel"                                       "3"
+    "MaxUpgradeLevel"                                     "2"
+    "ItemBaseLevel"                                       "1"
 
     // Stats
     //-------------------------------------------------------------------------------------------------------------
@@ -61,22 +61,22 @@
       "01"
       {
         "var_type"                                        "FIELD_INTEGER"
-        "bonus_armor"                                     "32"
+        "bonus_armor"                                     "32 40"
       }
       "02"
       {
         "var_type"                                        "FIELD_FLOAT"
-        "bonus_health_regen"                              "15"
+        "bonus_health_regen"                              "15.0 30.0"
       }
       "03"
       {
         "var_type"                                        "FIELD_FLOAT"
-        "bonus_mana_regen"                                "5.0"
+        "bonus_mana_regen"                                "5.0 7.5"
       }
       "04"
       {
         "var_type"                                        "FIELD_INTEGER"
-        "bonus_mana"                                      "700"
+        "bonus_mana"                                      "700 1000"
       }
       "05"
       {

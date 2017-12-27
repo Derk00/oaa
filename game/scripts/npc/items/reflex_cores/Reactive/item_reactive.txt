@@ -61,17 +61,17 @@
       "01"
       {
         "var_type"                                        "FIELD_INTEGER"
-        "bonus_all_stats"                                 "35"
+        "bonus_all_stats"                                 "35 45 55"
       }
       "02"
       {
-        "var_type"                                        "FIELD_INTEGER"
-        "bonus_health_regen"                              "16"
+        "var_type"                                        "FIELD_FLOAT"
+        "bonus_health_regen"                              "16 28 42"
       }
       "03"
       {
-        "var_type"                                        "FIELD_INTEGER"
-        "bonus_mana_regen"                                "4.50"
+        "var_type"                                        "FIELD_FLOAT"
+        "bonus_mana_regen"                                "4.50 6.0 8.0"
       }
       "04"
       {
