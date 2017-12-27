@@ -5,7 +5,7 @@
   //=================================================================================================================
   "item_recipe_postactive_5c"
   {
-    "ID"                                                  "8448"        // unique ID
+    "ID"                                                  "8449"        // unique ID
     "BaseClass"                                           "item_datadriven"
     "AbilityTextureName"                                  "item_recipe"
     "Model"                                               "models/props_gameplay/recipe.mdl"
