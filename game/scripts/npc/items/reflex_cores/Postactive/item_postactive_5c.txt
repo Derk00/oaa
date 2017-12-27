@@ -5,7 +5,7 @@
   //=================================================================================================================
   "item_recipe_postactive_5c"
   {
-    "ID"                                                  "8436"        // unique ID
+    "ID"                                                  "8448"        // unique ID
     "BaseClass"                                           "item_datadriven"
     "AbilityTextureName"                                  "item_recipe"
     "Model"                                               "models/props_gameplay/recipe.mdl"
@@ -27,7 +27,7 @@
   {
     // General
     //-------------------------------------------------------------------------------------------------------------
-    "ID"                                                  "8437"                                                      // unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+    "ID"                                                  "8449"                                                      // unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
     "BaseClass"                                           "item_lua"
     "ScriptFile"                                          "items/reflex/postactive_regen.lua"
     "AbilityBehavior"                                     "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
