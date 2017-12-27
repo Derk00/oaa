@@ -5,7 +5,7 @@
   //=================================================================================================================
   "item_recipe_postactive_4c"
   {
-    "ID"                                                  "5000"        // unique ID
+    "ID"                                                  "8434"        // unique ID
     "BaseClass"                                           "item_datadriven"
     "AbilityTextureName"                                  "item_recipe"
     "Model"                                               "models/props_gameplay/recipe.mdl"
@@ -28,7 +28,7 @@
   {
     // General
     //-------------------------------------------------------------------------------------------------------------
-    "ID"                                                  "5001"                                                      // unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+    "ID"                                                  "8435"                                                      // unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
     "BaseClass"                                           "item_lua"
     "ScriptFile"                                          "items/reflex/postactive_regen.lua"
     "AbilityBehavior"                                     "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
@@ -39,7 +39,7 @@
     "AbilityCastPoint"                                    "0.0"
 
     "MaxUpgradeLevel"                                     "3"
-    "ItemBaseLevel"                                       "3"
+    "ItemBaseLevel"                                       "2"
 
     // Item Info
     //-------------------------------------------------------------------------------------------------------------
@@ -59,12 +59,12 @@
       "01"
       {
         "var_type"                                        "FIELD_INTEGER"
-        "bonus_health"                                    "2000"
+        "bonus_health"                                    "1200 2000 2800"
       }
       "02"
       {
         "var_type"                                        "FIELD_INTEGER"
-        "bonus_strength"                                  "95"
+        "bonus_strength"                                  "75 95 115"
       }
       "03"
       {
