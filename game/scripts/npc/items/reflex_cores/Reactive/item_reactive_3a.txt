@@ -17,7 +17,6 @@
     "ItemRequirements"
     {
       "01"                                                "item_reactive_2a;item_upgrade_core_4"
-      "02"                                                "item_reactive_2b;item_upgrade_core_4"
     }
   }
 
