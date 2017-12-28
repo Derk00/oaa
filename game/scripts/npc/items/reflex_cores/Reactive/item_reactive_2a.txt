@@ -63,7 +63,7 @@
       "02"
       {
         "var_type"                                        "FIELD_FLOAT"
-        "bonus_health_regen"                              "16 28 42" 
+        "bonus_health_regen"                              "16 28 42"
       }
       "03"
       {
